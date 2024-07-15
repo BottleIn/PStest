@@ -12,6 +12,8 @@ int main(void) {
     // 0과 1은 소수가 아님
     num[0] = num[1] = 0;
 
+
+
     // 에라토스테네스의 체 알고리즘 적용
     for (int i = 2; i * i <= max; i++) {
         if (num[i]) {  // num[i]가 1이면 소수
